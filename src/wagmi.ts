@@ -10,7 +10,6 @@ import {
   base,
   zora,
   avalanche,
-  bsc,
   Chain,
 } from 'wagmi/chains';
 
