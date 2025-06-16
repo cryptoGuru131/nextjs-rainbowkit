@@ -10,6 +10,8 @@ import {
   base,
   zora,
   avalanche,
+  master
+  Chain,
 } from 'wagmi/chains';
 
 const client = createThirdwebClient({
