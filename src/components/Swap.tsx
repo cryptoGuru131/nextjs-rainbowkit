@@ -1,10 +1,4 @@
 import { useEffect } from "react";
-// import { 
-//   render as renderSwapWidget,
-//   updateConnectWallet, 
-//   updateAddressAndProvider, 
-//   updateDisconnectWallet 
-// } from "woofi-swap-widget";
 import { 
   render as renderSwapWidget,
   init as initSwapWidget,
