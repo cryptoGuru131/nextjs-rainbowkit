@@ -1,9 +1,9 @@
-// import { ConnectButton } from "@rainbow-me/rainbowkit";
+
 import { ConnectButton, ConnectEmbed } from "thirdweb/react";
 import type { NextPage } from "next";
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
-// import { Swap } from "../components/Swap";
+
 import { createThirdwebClient } from "thirdweb";
 import { createWallet } from "thirdweb/wallets";
 import { arbitrum, avalanche, base, bsc, mainnet, optimism, polygon, zora } from "thirdweb/chains";

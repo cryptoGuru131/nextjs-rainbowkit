@@ -14,9 +14,6 @@ import {
   useWalletClient,
 } from "wagmi";
 import { useConnectModal } from "@rainbow-me/rainbowkit";
-
-// import { init as initSwapWidget } from "woofi-swap-widget";
-
 if (typeof window !== "undefined") {
   console.log("window", window.navigator.userAgent.toLowerCase);
   initSwapWidget({
